@@ -26,7 +26,7 @@ h2 {
   font-weight: normal;
 }
 
-h1, h2, h3, nav {
+h1, h2, h3 {
   font-family: "Saira Extra Condensed", sans-serif;
 }
 
@@ -68,12 +68,32 @@ header {
   left: 10px;
   right: 10px;
   z-index: 2;
+  justify-content: space-between;
+
 }
 
 /* 
  * YOUR CSS:
  */
+header nav{
+  display:flex;
+  flex:1;
+  justify-content: space-between;
+  align-items: center;
+  font-family:'Times New Roman', Times, serif
+  
+}
 
+.nav-item a{
+  color:white;
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+
+header div{
+  flex:3;
+}
 
  #about div{
    display: flex;
