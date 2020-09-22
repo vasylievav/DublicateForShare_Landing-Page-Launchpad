@@ -84,11 +84,19 @@ header nav{
   
 }
 
-.nav-item a{
-  color:white;
+.nav-item a {
+  color: white;
   font-size: 20px;
   text-decoration: none;
+  border-radius: 5px;
+  transition: all 1s;
 }
+
+/* .nav-item a:hover {
+  color: red;
+  font-size: 30px;
+  text-decoration: none;
+} */
 
 #carousel-text {
   text-align: center;
@@ -151,6 +159,13 @@ header div{
   }
   #about{
     flex:10
+  }
+
+  .staff-profile {
+    flex-direction: column;
+    text-align: center;
+    flex: 0 0 100%;
+    padding: 2rem;
   }
 
 }
