@@ -66,3 +66,13 @@ header {
 /* 
  * YOUR CSS:
  */
+
+ #about div{
+   display: flex;
+   flex:50%
+ }
+
+ #aboutmockup{
+  flex-grow:3;
+  align-self: flex-start;
+}
