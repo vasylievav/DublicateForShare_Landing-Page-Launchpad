@@ -69,10 +69,22 @@ header {
 
  #about div{
    display: flex;
-   flex:50%
+ }
+
+ #about div>p {
+   flex:3;
  }
 
  #aboutmockup{
-  flex-grow:3;
-  align-self: flex-start;
+  flex: 2;
+  align-self: flex-end;
+}
+
+#staff div{
+  display: grid;
+}
+
+.staff-profile {
+  flex-wrap: wrap;
+  flex-basis: auto;
 }
