@@ -81,10 +81,19 @@ header {
 }
 
 #staff div{
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .staff-profile {
-  flex-wrap: wrap;
-  flex-basis: auto;
+  flex: 0 0 33%;
+    /* text-align: center; */
+   /* align-content: center; */
+}
+
+/* .staff-name{
+  align-self: center;
+} */
+.staff-profile> * {
+  align-self: center;
 }
