@@ -66,7 +66,7 @@ header {
   width: 100%;
   top: 0px;
   left: 10px;
-  right: 10px;
+  margin-right: 20px;
   z-index: 2;
   justify-content: space-between;
 
@@ -88,8 +88,24 @@ header nav{
   color:white;
   font-size: 20px;
   text-decoration: none;
-  
 }
+
+#carousel-text {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  color: white;
+}
+
+.carousel-image {
+  display: grid;
+  height: 100vh;
+  /* width: 100%;
+  height: 100%;
+  margin: auto; */
+}
+
 
 header div{
   flex:3;
